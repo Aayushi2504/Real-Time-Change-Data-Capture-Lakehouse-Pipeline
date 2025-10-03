@@ -1,0 +1,27 @@
+# python cache
+__pycache__/
+*.pyc
+
+# virtual environments
+.venv/
+
+# environment variables (do not commit secrets)
+.env
+
+# docker volumes and temp data
+data/
+volumes/
+tmp/
+checkpoints/
+
+# spark outputs
+output/
+metastore_db/
+
+# editors
+.vscode/
+.idea/
+
+# os cruft
+.DS_Store
+Thumbs.db
